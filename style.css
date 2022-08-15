@@ -25,7 +25,6 @@ span{
 
 .card{
   width: 80%;
-  min-height: 60%;
   max-height: 80%;
   overflow: auto;
   display: inline-block;
@@ -40,13 +39,14 @@ span{
 a{
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: inline-block;
 }
 
 a img{
   display: inline-block;
   width: 50px;
   margin: 6px;
-  margin-bottom: 10%;
+  margin-bottom: 20px;
 }
 a:active img{
   transform: scale(.8);
@@ -75,4 +75,11 @@ button{
 
 button:active{
   transform: scale(0.8);
+}
+
+@media only screen and (min-width:768px) {
+  .card{
+    width: 40%;
+    left: 30%;
+  }
 }
