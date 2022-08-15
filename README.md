@@ -1,1 +1,1 @@
-<h1><span style="color: teal;">Repository</span> that contains <span style="color: yellow;">code</span> for my  <a href="https://parida-git.github.io/web" style="background: tomato;color: white;text-decoration: none;">parida-git.github.io/web</a> website.</h1>
+<h1>Repository that contains code for my  <a href="https://parida-git.github.io/web">parida-git.github.io/web</a> website.</h1>
