@@ -1,3 +1,14 @@
+@keyframes pop{
+  from{
+    opacity: 0;
+    transform: scale(.6);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 :focus{
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -21,6 +32,7 @@ span{
   display: inline-block;
   position: fixed;
   border-radius: 50%;
+  animation: pop .2s ease-in;
 }
 
 .card{
@@ -79,7 +91,17 @@ button:active{
 
 @media only screen and (min-width:768px) {
   .card{
-    width: 40%;
-    left: 30%;
+    width: 20%;
+    left: 40%;
+    overflow: hidden;
+  }
+  
+  .pfp{
+    max-width: 40%;
+    margin-top: 5%;
+  }
+
+  a:hover img{
+    transform: scale(1.1);
   }
 }
